@@ -1,0 +1,9 @@
+max=min=int(input())
+for i in range(1,10):
+    m=int(input())
+    if m < min:
+        min = m
+    elif m > max:
+        max = m
+print("max=",max)
+print("min=",min)
