@@ -1,0 +1,77 @@
+>>> 100
+100
+>>> 100%3
+1
+>>> 100/3
+33.333333333333336
+>>> 100//3
+33
+>>> 100*3
+300
+>>> 100**3
+1000000
+>>> a=10
+>>> a
+10
+>>> _
+10
+>>> print(a)
+10
+>>> _**2+_
+110
+>>> type(a)
+<class 'int'>
+>>> b="GDPU"
+>>> b
+'GDPU'
+>>> print(b)
+GDPU
+>>> id(b)
+71152384
+>>> c=b
+>>> id(c)
+71152384
+>>> b is c
+True
+>>> 0X100
+256
+>>> 0o100
+64
+>>> s1="It's fine"
+>>> s2='Let\'s go'
+>>> print(s1+"."+s2)
+It's fine.Let's go
+>>> str(123.45)
+'123.45'
+>>> repr(123.45)
+'123.45'
+>>> str("Mary")
+'Mary'
+>>> repr("Mary")
+"'Mary'"
+>>> import math
+>>> dir(math)
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'acos', 'acosh', 'asin', 'asinh', 'atan', 'atan2', 'atanh', 'ceil', 'comb', 'copysign', 'cos', 'cosh', 'degrees', 'dist', 'e', 'erf', 'erfc', 'exp', 'expm1', 'fabs', 'factorial', 'floor', 'fmod', 'frexp', 'fsum', 'gamma', 'gcd', 'hypot', 'inf', 'isclose', 'isfinite', 'isinf', 'isnan', 'isqrt', 'ldexp', 'lgamma', 'log', 'log10', 'log1p', 'log2', 'modf', 'nan', 'perm', 'pi', 'pow', 'prod', 'radians', 'remainder', 'sin', 'sinh', 'sqrt', 'tan', 'tanh', 'tau', 'trunc']
+>>> help(math.pow)
+Help on built-in function pow in module math:
+
+pow(x, y, /)
+    Return x**y (x to the power of y).
+
+>>> s3='''123
+456
+789'''
+>>> print(s3)
+123
+456
+789
+>>> s4="123\
+456\
+789"
+>>> s4
+'123456789'
+>>> print("A\nB\t\\C")
+A
+B	\C
+>>> print(r"A\nB\t\\C")
+A\nB\t\\C
