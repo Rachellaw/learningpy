@@ -1,0 +1,12 @@
+a,b = input().split()
+a,b = int(a),int(b)
+set3=set()
+set5=set()
+res_set=set()
+for n in range(a,b+1):
+    if (n%3==0):
+        set3.add(n)
+    if (n%5==0):
+        set5.add(n)
+res_set=list(set3.union(set5))
+print(len(res_set))
