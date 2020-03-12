@@ -1,0 +1,6 @@
+s=0
+for i in range(7):
+      a=float(input())
+      b=a-int(a)
+      s=s+b
+print("s="+str(round(s,2)))
