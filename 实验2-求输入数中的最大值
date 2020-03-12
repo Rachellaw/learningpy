@@ -1,0 +1,6 @@
+m=0
+for i in range(5):
+    a, b = input().split(",")
+    c = max(float(a), float(b))
+    m = max(m,c)
+print("Top="+str(m))
