@@ -1,0 +1,15 @@
+x = float(input())
+y = float(input())
+if x <= 3:
+      a = 10
+if 3 < x <= 10:
+      a = x * 2 + 4
+else:
+      a = x * 3 - 6
+a = round(a)
+if y < 5:
+      b = 0
+else:
+      b = (y / 5) * 2
+b = round(b)
+print("money="+str(a + b))
