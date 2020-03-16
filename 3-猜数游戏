@@ -1,0 +1,12 @@
+import random
+a = random.randint(1,100)
+print("游戏开始")
+print("请输入0至100任意一个整数")
+b = int(input())
+if b == a:
+    print("猜中")
+else:
+    if b < a:
+        print("你的答案小于正确答案")
+    else:
+        print("你的答案大于正确答案")
