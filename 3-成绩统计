@@ -1,0 +1,14 @@
+c1 = c2 = c3 = c4 = c5 = 0
+for i in range(10):
+    a = int(input())
+    if a >= 90:
+        c1 += 1
+    elif a >= 80:
+        c2 += 1
+    elif a >= 70:
+        c3 += 1
+    elif a >= 60:
+        c4 +=1
+    else:
+        c5 += 1
+print(c1,c2,c3,c4,c5)
