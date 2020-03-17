@@ -1,15 +1,18 @@
-x = float(input())
-y = float(input())
+#某城市出租车计价收费标准如下：起步里程3公里，起步费10元；10公里内超过起步里程的按2元/公里计价，
+#超过10公里的另加收1元/公里的空驶补贴费；营运中因临时停车须按每5分钟2元收取延时费（不足5分钟部分不收费），
+#计费四舍五入，保留到元。试编写该标准的出租车计费程序，分两行分别输入乘车里程（公里）和临时停车时间（分钟），输出车费（元）。
+x = eval(input())
+y = eval(input())
 if x <= 3:
       a = 10
-if 3 < x <= 10:
+elif 3 < x <= 10:
       a = x * 2 + 4
 else:
       a = x * 3 - 6
-a = round(a)
 if y < 5:
       b = 0
 else:
-      b = (y / 5) * 2
-b = round(b)
-print("money="+str(a + b))
+      b = y / 5
+      b = round(b)
+c = b * 2
+print("money="+str(round(a + c)))
