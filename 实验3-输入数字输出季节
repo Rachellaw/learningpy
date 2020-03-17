@@ -1,0 +1,12 @@
+#输入月份1-12，输出其对应的季节（2-4：Spring，5-7：Summer，8-10：Autumn，11-12、1：Winter）。否则输出“Error”。
+a = int(input())
+if 2 <= a <=4:
+      print("Spring")
+elif 5 <= a <= 7:
+      print("Summer")
+elif 8 <= a <= 10:
+      print("Autumn")
+elif a < 1 or a > 12:
+      print("Error")
+else:
+      print("Winter")
