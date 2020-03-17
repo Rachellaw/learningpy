@@ -2,8 +2,8 @@ x = float(input())
 y = float()
 if x < 1:
       y = x
-if 1 <= x < 10:
+elif 1 <= x < 10:
       y = x-1
-if x >= 10:
+elif x >= 10:
       y = x*3-11
-print("y="+str(round(y,2)))
+print("y="+"%.2f" % y)
