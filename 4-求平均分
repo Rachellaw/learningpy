@@ -1,0 +1,12 @@
+# 输入课程成绩，求平均分
+
+s , p = 0 , 0
+while 1 == 1:
+    sc = float(input("成绩="))
+    if sc < 0 :
+        break
+    elif sc > 100 :
+        continue
+    s += sc
+    p += 1
+print("平均分=%.2f"%(s/p))
