@@ -1,0 +1,9 @@
+#随机生成一内含100个字母的字符列表，试统计每个字母出现的次数
+
+from random import randint
+zmlb = [chr(randint(65,90)) for i in range(100)]
+tjlb = [0 for i in range(0,26)]
+for i in range(0,26):
+    tjlb[i] = zmlb.count(chr(65 + i))
+print(zmlb)
+print(tjlb)
