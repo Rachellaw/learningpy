@@ -1,0 +1,10 @@
+#一行输入多个整数，将正整数升序输出
+
+lb = list(map(int,input().split()))
+zs = []
+for i in range(len(lb)):
+    if lb[i] > 0:
+        zs.append(lb[i])
+zs.sort()
+for i in range(len(zs)):
+    print(zs[i],end=" ")
