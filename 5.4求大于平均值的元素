@@ -1,0 +1,11 @@
+#输入五个整数，求大于平均值的元素
+
+d = [None for i in range(5)]
+for i in range(5):
+    d[i] = int(input())
+s = sum(d)
+av = s / 5
+print("Average="+str(av))
+for i in range(5):
+    if d[i] > av:
+        print(d[i])
