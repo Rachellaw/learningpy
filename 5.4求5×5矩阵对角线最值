@@ -1,0 +1,12 @@
+#随机生成5*5矩阵，求对角线上最值
+
+from random import randint
+jz = [ [randint(0,50) for j in range(0,5)] for i in range(0,5)]
+for i in range(0,5):
+    for j in range(0,5):
+        print("%5d"%jz[i][j],end=" ")
+    print()
+djx = []
+for i in range(0,5):
+    djx.append(jz[i][i])
+print("max=%5d,min=%5d"%(max(djx),min(djx)))
