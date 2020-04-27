@@ -1,0 +1,10 @@
+#试编写一个判断x是否为素数的函数isPrime(x)，若是返回True，否则返回False
+
+x = int(input())
+def isPrime(x):
+  for i in range(2,x):
+    if x%i==0:
+      return False
+      break
+    else:
+      return True
